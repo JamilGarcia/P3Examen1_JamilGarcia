@@ -99,6 +99,7 @@ int main()
                     {
                         tempIP += comando[i];
                     }
+                    //cout << tempIP;
                     PCActiva->Ping(tempIP, listaPC);
                 }
             }
